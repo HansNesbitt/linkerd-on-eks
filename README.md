@@ -131,7 +131,7 @@ ecsdemo-frontend   LoadBalancer   10.100.169.201   ac5b78743e62d11e98b060a1d141e
 ecsdemo-nodejs     ClusterIP      10.100.11.126    <none>                                                                    80/TCP         20m
 kubernetes         ClusterIP      10.100.0.1       <none>
 ```
-### Wait for the Load Balancer to be able to serve traffic. 
+### Wait for the Load Balancer to be able to serve traffic. In a new browser tab, paste the url for the ecsdemo-frontend   LoadBalancer to generate traffic.
 
 # Show Dashboarding
 ### Typing the linkerd dashboard will establish a connection on a random port and open up a browers on your workstation
